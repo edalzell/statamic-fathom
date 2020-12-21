@@ -1,0 +1,24 @@
+{
+    "name": "edalzell/fathom",
+    "require": {
+        "php": "^7.4",
+        "beyondcode/fathom-api": "^1.0",
+        "statamic/cms": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edalzell\\Fathom\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Fathom",
+            "description": "Fathom addon"
+        },
+        "laravel": {
+            "providers": [
+                "Edalzell\\Fathom\\ServiceProvider"
+            ]
+        }
+    }
+}
